@@ -1,0 +1,17 @@
+/* Shared crystal theme matches the first diagnosis page. */
+.option-label{display:block;flex:1;min-width:0;}
+.option-label strong{display:block;color:var(--ink);font-size:14px;line-height:1.7;}
+.option-label small{display:block;margin-top:4px;color:var(--muted);font-size:12px;font-weight:400;line-height:1.7;}
+.option:disabled{cursor:default;}
+.journey-ticks i:nth-child(1){left:33.333%;}
+.journey-ticks i:nth-child(2){left:66.667%;}
+.gem-progress{gap:16px;}
+.method-lead{text-align:left;}
+.method-lead strong{font-size:15px;line-height:1.9;}
+.method-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;}
+.method-chips span{border:1px solid #d8c3e1;border-radius:24px;background:#f7f0fa;padding:7px 14px;color:#69467f;font-size:13px;}
+.return-link{display:block;width:fit-content;max-width:100%;margin:24px auto 8px;color:#716779;font-size:12px;text-align:center;text-underline-offset:4px;}
+.crystal-intro .intro-categories{line-height:2;}
+footer{flex-direction:column;align-items:center;gap:5px;text-align:center;}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0;}
+@media(max-width:360px){.option-label strong{font-size:13px;}.option-label small{font-size:11px;}}
