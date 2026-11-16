@@ -107,7 +107,7 @@ function renderResult() {
       </section>
       <div class="consult"><span class="offer-kicker">あなたに合う占いの方法が見つかったら</span><h3>次は、相談する占い師を<br>探してみませんか？</h3>
         <p>知りたいことや、占い師が得意とする占術を見ながら、あなたが相談しやすい先生を探してみましょう。</p>
-        <a class="primary result-cta" href="${DESTINATION}" target="_blank" rel="noopener sponsored"><span class="cta-label">あなたに合う占い師を探してみる</span></a>
+        <button type="button" class="primary result-cta"><span class="cta-label">あなたに合う占い師を探してみる</span></button>
       </div>
       <div class="result-actions"><button class="text-button" id="edit">← 回答を見直す</button><button class="text-button" id="restart">もう一度診断する</button></div>
       <a class="return-link" href="../SHINDAN/index.html">お悩み診断へ戻る</a>
